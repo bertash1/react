@@ -1,0 +1,42 @@
+.img-item {
+  width: 23%;
+  margin: 0 1% 20px 1%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(245, 245, 245);
+}
+
+.img-item__img {
+  width: 100%;
+}
+
+.img-item__info {
+  margin: 5px;
+  display: flex;
+}
+
+.img-item__heart {
+  color: rgb(243, 63, 63);
+  margin-right: 3px;
+}
+
+.img-item__likes-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.img-item__downloads-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.img-item__download {
+  color: rgb(56, 56, 56);
+  margin-right: 3px;
+}
